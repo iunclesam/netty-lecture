@@ -64,7 +64,7 @@ public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObjec
 
             ctx.writeAndFlush(response);
 
-            ctx.channel().close();
+            //ctx.channel().close();
         }
 
     }
