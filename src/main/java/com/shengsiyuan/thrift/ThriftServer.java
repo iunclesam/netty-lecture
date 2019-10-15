@@ -6,7 +6,7 @@ import org.apache.thrift.server.THsHaServer;
 import org.apache.thrift.server.TServer;
 import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TNonblockingServerSocket;
-import thrift.generated.PersonService;
+import com.shengsiyuan.thrift.generated.PersonService;
 
 public class ThriftServer {
 

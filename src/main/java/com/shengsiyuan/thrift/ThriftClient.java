@@ -5,9 +5,8 @@ import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
-import org.apache.thrift.transport.TTransportException;
-import thrift.generated.Person;
-import thrift.generated.PersonService;
+import com.shengsiyuan.thrift.generated.Person;
+import com.shengsiyuan.thrift.generated.PersonService;
 
 public class ThriftClient {
     public static void main(String[] args) {

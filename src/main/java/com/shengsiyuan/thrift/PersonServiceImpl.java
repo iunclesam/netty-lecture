@@ -1,9 +1,9 @@
 package com.shengsiyuan.thrift;
 
 import org.apache.thrift.TException;
-import thrift.generated.DataException;
-import thrift.generated.Person;
-import thrift.generated.PersonService;
+import com.shengsiyuan.thrift.generated.DataException;
+import com.shengsiyuan.thrift.generated.Person;
+import com.shengsiyuan.thrift.generated.PersonService;
 
 public class PersonServiceImpl implements PersonService.Iface {
     @Override
