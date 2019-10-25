@@ -34,6 +34,15 @@ buildscript {
     }
 }
 
+sourceSets {
+    main {
+        proto {
+            srcDir 'src/protobuf'
+        }
+        
+    }
+}
+
 protobuf {
 
     protoc {

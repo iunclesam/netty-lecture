@@ -12,14 +12,14 @@ import java.util.concurrent.TimeUnit;
 
 public class GrpcClient {
     public static void main(String[] args) {
-        ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost", 8899)
+        ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("127.0.0.1", 8899)
                 .usePlaintext(true).build();
         StudentServiceGrpc.StudentServiceBlockingStub blockingStub =
                 StudentServiceGrpc.newBlockingStub(managedChannel);
 
         StudentServiceGrpc.StudentServiceStub stub = StudentServiceGrpc.newStub(managedChannel);
 
-     /*   for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 20; i++) {
 
         }
 
@@ -64,7 +64,7 @@ public class GrpcClient {
         studentRequestStreamObserver.onNext(StudentRequest.newBuilder().setAge(19).build());
         studentRequestStreamObserver.onNext(StudentRequest.newBuilder().setAge(18).build());
 
-        studentRequestStreamObserver.onCompleted();*/
+        studentRequestStreamObserver.onCompleted();
 
 
 
@@ -98,7 +98,7 @@ public class GrpcClient {
 
 
         try {
-           TimeUnit.SECONDS.sleep(20);
+           TimeUnit.SECONDS.sleep(5);
         } catch (Exception e) {
             e.printStackTrace();
         }
