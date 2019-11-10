@@ -33,6 +33,8 @@ public class NioTest13 {
 
         ByteBuffer outputData = encoder.encode(charBuffer);
 
+        // ByteBuffer outputData = Charset.forName("utf-8").encode(charBuffer);
+
         outputFileChannel.write(outputData);
 
         inputRandomAccessFile.close();
