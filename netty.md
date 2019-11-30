@@ -1068,7 +1068,7 @@ gradle clean build
 
 - 过滤流：使用节点流作为输入或输出。过滤流是使用一个已经存在的输入流或输出流连接创建的。
 
-![QQ20191024-215617](/Users/agan/Pictures/QQ20191024-215617.png)
+![QQ20191024-215617](http://chuantu.xyz/t6/703/1575088452x3703728804.png)
 
 
 
@@ -1111,11 +1111,11 @@ gradle clean build
 
 - Input Stream Chain
 
-  ![](/Users/agan/Pictures/QQ20191024-233750.png)
+  ![](http://chuantu.xyz/t6/703/1575088625x3661913030.png)
 
 - Output Stream Chain
 
-![](/Users/agan/Pictures/QQ20191024-235014.png)
+![](http://chuantu.xyz/t6/703/1575088655x3661913030.png)
 
 - java.io包中Reader的类层次
 
